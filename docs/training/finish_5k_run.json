@@ -1,0 +1,42 @@
+{
+  "run": {
+    "config": "vtla_bottle_direct_full",
+    "exp_name": "base_touch_joint_46k_seed43",
+    "checkpoint_dir": "/data/checkpoints_vtla_bottle/vtla_bottle_direct_full/base_touch_joint_46k_seed43",
+    "source_checkpoint": 19000,
+    "start_step": 19001,
+    "additional_steps": 5000,
+    "final_checkpoint": 24000,
+    "start_lr": 3.2659416319802403e-05,
+    "end_lr": 9.999999747378752e-06,
+    "batch_size": 64,
+    "gradient_accumulation_steps": 1,
+    "fsdp_devices": 4,
+    "resume_optimizer": true,
+    "warmup_restarted": false,
+    "preserve_checkpoints_every": 1000
+  },
+  "status": "complete",
+  "completed_at": "2026-10-09T03:10:55.383457+08:00",
+  "resume_verified": true,
+  "final_counts": {
+    "step": 24001,
+    "adam_count": 24001,
+    "schedule_count": 24001
+  },
+  "returncode": 0,
+  "source_manifest": "finish_5k_source_hashes.json",
+  "recorded_files_verified": 85,
+  "versioned_training_sources": 76,
+  "excluded_macos_metadata": [
+    "src/openpi/training/._config.py",
+    "src/openpi/training/._data_loader.py",
+    "src/openpi/policies/._octopus_policy.py",
+    "src/openpi/models/._tactile_adapter.py",
+    "src/openpi/models/._tactile_encoder.py",
+    "src/openpi/models/._tactile_contact.py",
+    "src/openpi/models/._pi0.py",
+    "src/openpi/models/._model.py",
+    "src/openpi/models/._pi0_config.py"
+  ]
+}
